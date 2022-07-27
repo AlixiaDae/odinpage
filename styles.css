@@ -1,0 +1,40 @@
+.header,
+.head2,
+.right-links {
+    border: 2px solid pink;
+}
+
+.header,
+.head2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    padding-top: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-links {
+    display: flex;
+    gap: 10px;
+}
+
+.head2 {
+    padding: 50px 140px
+ }
+
+.hero {
+    width: 350px;
+    height: 200px;
+    padding-bottom: 30px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+}
