@@ -6,8 +6,8 @@ body {
 .head2 {
     display: flex;
     justify-content: space-around;
-    background-color: #1f2937;
-    
+    background-color: #1f2937; 
+    flex-wrap: wrap;
 }
 
 .main,
@@ -106,7 +106,7 @@ body {
 .testimonial {  
     display: flex;
     flex-direction: column;
-    width: 900px;
+    width: 830px;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -122,16 +122,17 @@ body {
     font-weight: bold;
     color: #1f2937;
     text-align: right;
+    margin-right: 30px;
 }
 
 .action-call {
     display: flex;
     justify-content: center;
     margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .action {
-    border: 2px solid pink;
     display: flex;
     background-color: #3882f6;
     justify-content: center;
@@ -176,4 +177,16 @@ body {
     font-weight: bold;
     align-items: center;
     justify-content: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.copyright div {
+    font-size: 15px;
+    color: #f9faf8;
+    padding: 30px;
 }
