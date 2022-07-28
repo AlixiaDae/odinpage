@@ -123,3 +123,57 @@ body {
     color: #1f2937;
     text-align: right;
 }
+
+.action-call {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.action {
+    border: 2px solid pink;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 3%;
+    flex-wrap: wrap;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.call {
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: bold;
+    
+}
+
+.sign {
+    
+    font-size: 15px;
+    color: #e5e7eb;
+}
+
+.butt {
+    display: flex;
+    height: 30px;
+    width: 90px;
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
